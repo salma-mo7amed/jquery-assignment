@@ -1,0 +1,214 @@
+
+/* start of home section */
+.homeSection{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 660px;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.navmenu{
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+background-color: #111111;
+top: 0;
+left:-250px;
+}
+.insidemenu li a{
+    color: white;
+    text-decoration: none;
+}
+.navmenu li{
+    list-style: none; 
+    padding-top: 20px; 
+    
+}
+.insidemenu li{
+    list-style: none;
+    padding-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin: auto;
+    font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   transition: 0.5s all;
+   -webkit-transition: 0.5s all;
+   -moz-transition: 0.5s all;
+   -ms-transition: 0.5s all;
+   -o-transition: 0.5s all;
+ 
+    
+}
+.insidemenu li:hover a{
+    color:#BD3932;
+}
+
+.navmenu .closeicon {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.navmenu .closeicon:hover{
+    color:#BD3932;
+}
+
+.homecontent{
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.homecontent h2{
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+text-align: center;
+}
+.homecontent .mt-4{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+text-align: center;
+}
+.homecontent .navbtn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+/* end of home section */
+/* start of slider section */
+#Slider{
+ margin-top: 50px;
+ width: 50%;
+ margin: auto;
+ padding: 50px;
+}
+#Slider h3{
+    color: white;
+    background-color: #E68285;
+    padding: 10px;
+    width: 100%;
+    margin-top: 0;
+}
+#Slider .slidercontent{
+    background-color:  #E68285 ; 
+}
+#Slider .inner{
+margin-top: 0;
+ color: black;
+ background-color: #CCCCCC;
+ display: none;
+
+}
+
+/* end of slider section */
+/* start of details section */
+#Details{
+    background-image: url(../images/invitation-2508607__340.jpg);
+   position: relative;
+    height: 300px;
+    background-size: 100% 100%;
+    background-position: center ;
+    margin-top: 40px;
+    padding-top: 20px;
+   
+
+}
+.details-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+.innerdetail {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    border: 1px solid white;
+    box-sizing: border-box;
+   
+}
+/* end of details section */
+/* start of contact section */
+#contactUs{
+    padding-top: 100px;
+    margin-top: 100px;
+   
+}
+.heading h2{
+    margin-left: 100px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contactUs p{
+ color: #777777;
+ font-size: 16px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialicons i{
+    color: #777777;
+    border: 1px solid  #777777 ;
+    margin-right: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.socialicons i:hover{
+    color: white;
+    background-color: #D62E33;
+}
+
+.form-control{
+    border: 1px solid #ced4da;
+    color: #495057;
+    margin-top: 15px;
+    padding: 10PX;
+}
+
+#characterNumber{
+ color: #D62E33;
+}
+.mybtn{
+ color: white;
+ background-color: #D62E33;
+ padding: 15px;
+ border-color:  #D62E33 ;
+ margin-bottom: 100px;
+}
+
+/* end of contact section */
